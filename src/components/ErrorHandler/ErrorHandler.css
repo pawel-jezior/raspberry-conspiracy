@@ -1,0 +1,26 @@
+.error {
+  display: flex;
+  background-color: #141f23;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.textError {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.text-bottom {
+  font-weight: bold;
+  font-size: 20px;
+  width: 200px;
+  opacity: 0.5;
+}
+
+.errorImage {
+  opacity: 0.5;
+}

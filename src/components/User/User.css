@@ -1,0 +1,94 @@
+.userContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.userWrapper {
+  position: relative;
+  width: 126px;
+  height: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rainbow {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  border: 5px solid transparent;
+  border-radius: 50%;
+  background: conic-gradient(
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    red
+  );
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.user {
+  display: block;
+  height: 120px;
+  width: 120px;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.user-name {
+  position: absolute;
+  bottom: -4px;
+  background-color: #0084ff;
+  border-radius: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 5px 0;
+  padding-top: 1px;
+  z-index: 2;
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+.user-dots {
+  height: 20px;
+  width: 140px;
+  position: absolute;
+  bottom: -30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -8px;
+}
+
+.dot-1,
+.dot-2,
+.dot-3,
+.dot-4,
+.dot-5 {
+  display: block;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/raspberry-conspiracy/static/css/main.2806dc32.css",
+    "main.css": "/raspberry-conspiracy/static/css/main.25d3a468.css",
     "main.js": "/raspberry-conspiracy/static/js/main.0548e862.js",
     "static/js/453.4348270b.chunk.js": "/raspberry-conspiracy/static/js/453.4348270b.chunk.js",
     "static/media/gifPawel.gif": "/raspberry-conspiracy/static/media/gifPawel.6538675c109425ee8455.gif",
@@ -9,12 +9,12 @@
     "service-worker.js": "/raspberry-conspiracy/service-worker.js",
     "static/media/error.png": "/raspberry-conspiracy/static/media/error.04b432741f57e68ccf49.png",
     "index.html": "/raspberry-conspiracy/index.html",
-    "main.2806dc32.css.map": "/raspberry-conspiracy/static/css/main.2806dc32.css.map",
+    "main.25d3a468.css.map": "/raspberry-conspiracy/static/css/main.25d3a468.css.map",
     "main.0548e862.js.map": "/raspberry-conspiracy/static/js/main.0548e862.js.map",
     "453.4348270b.chunk.js.map": "/raspberry-conspiracy/static/js/453.4348270b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2806dc32.css",
+    "static/css/main.25d3a468.css",
     "static/js/main.0548e862.js"
   ]
 }

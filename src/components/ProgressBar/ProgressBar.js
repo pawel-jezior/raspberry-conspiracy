@@ -27,7 +27,7 @@ export const ProgressBar = ({ pointsP, pointsB }) => {
       <div className="barWrapper">
         <div className="bar"></div>
         <div className="procent">
-          {getSumPointsAsProcent(pointsP + pointsB)} %
+          {getSumPointsAsProcent(pointsP + pointsB)}%
         </div>
       </div>
     </div>

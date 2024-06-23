@@ -22,5 +22,6 @@
 }
 
 .errorImage {
-  opacity: 0.5;
+  opacity: 0.3;
+  height: 90px;
 }

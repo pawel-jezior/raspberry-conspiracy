@@ -72,7 +72,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {getPointsPawel() < 0 || getPointsBasia() < 0 ? (
+        {getPointsPawel() > 0 || getPointsBasia() < 0 ? (
           <ErrorHandler />
         ) : (
           <>

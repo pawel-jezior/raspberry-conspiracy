@@ -48,6 +48,20 @@ export const User = ({ name, points }) => {
       dot3 &&
       dot4 &&
       dot5 &&
+      pointsProcent >= 1 &&
+      pointsProcent <= 19
+    ) {
+      dot1.style.backgroundColor = "#83838373";
+      dot2.style.backgroundColor = "#83838373";
+      dot3.style.backgroundColor = "#83838373";
+      dot4.style.backgroundColor = "#83838373";
+      dot5.style.backgroundColor = "#83838373";
+    } else if (
+      dot1 &&
+      dot2 &&
+      dot3 &&
+      dot4 &&
+      dot5 &&
       pointsProcent >= 40 &&
       pointsProcent < 60
     ) {

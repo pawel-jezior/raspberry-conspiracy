@@ -18,6 +18,7 @@ export const Medal = ({ pointsP, pointsB }) => {
       pointsP + pointsB >= 1000
     ) {
       upperText.innerHTML = "WE DID IT!";
+      upperText.style.marginTop = "0";
       bottomText.style.display = "block";
       image.style.display = "block";
       line.style.display = "block";
@@ -32,6 +33,7 @@ export const Medal = ({ pointsP, pointsB }) => {
       pointsP + pointsB > 0
     ) {
       upperText.innerHTML = "In progress...";
+      upperText.style.marginTop = "-6px";
       bottomText.style.display = "none";
       image.style.display = "none";
       line.style.display = "none";
@@ -45,6 +47,7 @@ export const Medal = ({ pointsP, pointsB }) => {
       pointsP + pointsB <= 0
     ) {
       upperText.innerHTML = "Let's start!";
+      upperText.style.marginTop = "0";
       bottomText.style.display = "none";
       image.style.display = "none";
       line.style.display = "none";

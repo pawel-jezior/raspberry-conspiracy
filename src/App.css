@@ -27,5 +27,5 @@
 .users {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 46px;
 }

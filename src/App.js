@@ -5,6 +5,7 @@ import { ProgressBar } from "./components/ProgressBar/ProgressBar";
 import { User } from "./components/User/User";
 import { Medal } from "./components/Medal/Medal";
 import { ErrorHandler } from "./components/ErrorHandler/Errorhandler";
+import { Thanks } from "./components/ErrorHandler/Thanks";
 
 const DATABASE =
   "https://raspberry-conspiracy-database-default-rtdb.firebaseio.com/";
@@ -72,7 +73,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {getPointsPawel() < 0 || getPointsBasia() < 0 ? (
+      <Thanks />
+        {/* {getPointsPawel() < 0 || getPointsBasia() < 0 ? (
           <ErrorHandler />
         ) : (
           <>
@@ -87,7 +89,7 @@ function App() {
             />
             <Medal pointsP={getPointsPawel()} pointsB={getPointsBasia()} />
           </>
-        )}
+        )} */}
       </header>
     </div>
   );
